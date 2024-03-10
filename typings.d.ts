@@ -1,18 +1,18 @@
 interface Current {
-    apparent_temperature: string;
-    interval: string;
-    is_day: string;
-    precipitation: string;
-    rain: string;
-    relative_humidity_2m: string;
-    showers: string;
-    snowfall: string;
-    temperature_2m: string;
+    apparent_temperature: number;
+    interval: number;
+    is_day: number;
+    precipitation: number;
+    rain: number;
+    relative_humidity_2m: number;
+    showers: number;
+    snowfall: number;
+    temperature_2m: number;
     time: string;
-    weather_code: string;
-    wind_direction_10m: string;
-    wind_gusts_10m: string;
-    wind_speed_10m: string;
+    weather_code: number;
+    wind_direction_10m: number;
+    wind_gusts_10m: number;
+    wind_speed_10m: number;
   }
 
   interface Daily {
