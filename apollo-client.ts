@@ -1,5 +1,4 @@
 import { ApolloClient, InMemoryCache } from "@apollo/client";
-import { headers } from "next/headers";
 
 export const getClient = () => {
     const client = new ApolloClient({
